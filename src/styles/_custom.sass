@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 10%
 
 
 @keyframes float1
@@ -17,3 +17,59 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #000
+
+.boton, .boton--sm
+  background-color: $color-acento-contenido
+
+.boton *, .boton--sm *
+  color: #fff
+
+.tema1
+  .tarjeta.tarjeta-1
+    width: 90%
+    height: 60%
+    border-radius: 0px
+    border-end-start-radius: 30px
+    border-start-end-radius: 30px
+  .tarjeta.tarjeta--azul1
+    background-color: #E0E5EC
+  .tarjeta.tarjeta--azul1.acordion__activo
+    background-color: #FFFAD0
+  .tarjeta.tarjeta--azul2
+    background-color: #E0E5EC
+  .tarjeta.tarjeta--azul2.acordion__activo
+    background-color: #DBF9BD
+  .bloque-texto-c i
+    color: #1B3F5E
+  .bloque-texto-c:after
+    background-color: #1B3F5E
+  .modal-a__content
+    background-color: #DBF9BD
+  .tarjeta.color-acento-contenido
+    border: 3px solid $color-acento-contenido
+    background-color: #ffff
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-contenido
+  .acordion__accion__btn--b
+    background-color: $color-acento-contenido
+  .acordion__accion__btn--a i, .acordion__accion__btn--b i
+    color: #fff
+  .slyder__btn
+    background-color: $color-acento-contenido
+  .slyder__btn i
+    color: #fff
+
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
