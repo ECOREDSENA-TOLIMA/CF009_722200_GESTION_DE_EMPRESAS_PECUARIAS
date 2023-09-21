@@ -53,22 +53,21 @@
       
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Factores del proceso de alimentación</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-3-1.svg', alt='')  
-
+          img(src='@/assets/curso/temas/tema1/img-3-1-1.png', alt='Factores que intervienen en el proceso de alimentación El animal Mecanismos fisiológicos propios de cada especie Necesidades nutritivas Tipos de digestión Alimentos que se proporcionan Proporcionan los componentes para la producción Valor nutritivo Precio de compra o costos de producción Manejo alimentario Elección de la dieta a implementar Alimentos equilibrados que contengan los nutrientes Tiempos de distribución')  
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Factores del proceso de alimentación</em>
         figure
-          img(src='@/assets/curso/temas/tema1/img-3-2.svg', alt='')  
+          img(src='@/assets/curso/temas/tema1/img-3-2.svg', alt='Factores que intervienen en el proceso de alimentación El animal Mecanismos fisiológicos propios de cada especie Necesidades nutritivas Tipos de digestión Alimentos que se proporcionan Proporcionan los componentes para la producción Valor nutritivo Precio de compra o costos de producción Manejo alimentario Elección de la dieta a implementar Alimentos equilibrados que contengan los nutrientes Tiempos de distribución')  
 
     p.mb-5 Entre los factores que influyen en la alimentación se encuentran la digestión y la nutrición, es por eso importante conocer cómo estos inciden en el desarrollo de los animales.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1" data-aos="fade-down-left")
-      .row(titulo="Necesidades nutritivas del animaL")
+      .row(titulo="Necesidades nutritivas del animal")
         .col-md-8.mb-4.mb-md-0
           p Se debe establecer la cantidad de alimento que necesita el animal para garantizar el desarrollo fisiológico y elevar el potencial de producción. 
           p Para ello, se establecen dos tipos de necesidades, la primera de mantenimiento y la segunda de producción.
@@ -120,33 +119,31 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Ventajas de la implementación del forraje</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-7-1.svg', alt='')  
-
+          img.mb-3(src='@/assets/curso/temas/tema1/img-7-1.svg', alt='Ventajas de manejo de forrajes • Flexibilidad para ajustar la tecnología durante su aplicación • Bajos costos de inversión y rápida recuperación • Disminuye períodos improductivos y de baja eficiencia de forrajes • Mayor población y persistencia del pasto, con su beneficio al suelo')  
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 2.] <em>Ventajas de la implementación del forraje</em>
         figure
-          img(src='@/assets/curso/temas/tema1/img-7-2.svg', alt='') 
+          img(src='@/assets/curso/temas/tema1/img-7-2.svg', alt='Ventajas de manejo de forrajes • Flexibilidad para ajustar la tecnología durante su aplicación • Bajos costos de inversión y rápida recuperación • Disminuye períodos improductivos y de baja eficiencia de forrajes • Mayor población y persistencia del pasto, con su beneficio al suelo') 
 
     p.mb-5 La implementación de un sistema de silvopastoreo,  mejorará la diversidad de alimentación y el aporte de los nutrientes a los animales.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 3.] <em> Beneficios de implementación de árboles como alimento</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-8-1.svg', alt='')  
-
+          img.mb-3(src='@/assets/curso/temas/tema1/img-8-1.svg', alt='Beneficios de incorporar árboles multipropósito Mayor aporte de biomasa Mayor reciclaje de nutrientes y cobertura edáfica Menor evaporación e incidencia de radiaciones solares en el suelo Mejora la fertilidad y humedad de los suelos y el medio ambiente Aumenta retención e infiltración de las aguas lluvias Disminución de la erosión de los suelos')  
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 3.] <em> Beneficios de implementación de árboles como alimento</em>
         figure
-          img(src='@/assets/curso/temas/tema1/img-8-2.svg', alt='') 
+          img(src='@/assets/curso/temas/tema1/img-8-2.svg', alt='Beneficios de incorporar árboles multipropósito Mayor aporte de biomasa Mayor reciclaje de nutrientes y cobertura edáfica Menor evaporación e incidencia de radiaciones solares en el suelo Mejora la fertilidad y humedad de los suelos y el medio ambiente Aumenta retención e infiltración de las aguas lluvias Disminución de la erosión de los suelos') 
 
     ul.lista-ul.mb-3
       li 
@@ -170,11 +167,43 @@
             ModalA(:abrir-modal.sync="modal1")
               .row 
                 .col-md-12
-                  .titulo-sexto.color-primario
+                  .titulo-sexto.color-acento-contenido
                     p.titulo.pb-0.mb-0 #[b Tabla 1.] <em>Ciclo estral y ovulación en animales domésticos</em>
-                  figure
-                    img(src='@/assets/curso/temas/tema1/tabla-1.svg', alt='') 
-
+                  .tabla-b.color-primario
+                    table(style="min-width:auto", alt="Tabla 1 Ciclo estral y ovulación en animales domésticos En la tabla se observan los campos: especie, Duración del ciclo, Duración del estro, Momento de la ocupación; para yegua, vaca, cerda, cabra, oveja.")
+                      thead
+                        tr
+                          th Especie
+                          th Duración del ciclo 
+                          th Duración del estro 
+                          th Momento de la ocupación 
+                      tbody
+                        tr
+                          td.text-center(style="background-color:#F6F6F6") <strong>Yegua</strong>
+                          td.text-center(style="background-color:#F6F6F6") 19 a 25 días
+                          td.text-center(style="background-color:#F6F6F6") 4 - 8 días 
+                          td.text-center(style="background-color:#F6F6F6") 1 a 2 días antes del final de estro
+                        tr
+                          td.text-center(style="background-color:#FFFF") <strong>Vaca</strong>
+                          td.text-center(style="background-color:#FFFF") 21 días
+                          td.text-center(style="background-color:#FFFF") 18 - 19 horas
+                          td.text-center(style="background-color:#FFFF") 10 - 11 horas después del final del estro
+                        tr
+                          td.text-center(style="background-color:#F6F6F6") <strong>Cerda</strong>
+                          td.text-center(style="background-color:#F6F6F6") 19 a 20 días
+                          td.text-center(style="background-color:#F6F6F6") 48 - 72 horas
+                          td.text-center(style="background-color:#F6F6F6") 35 - 45 horas a partir del estro
+                        tr
+                          td.text-center(style="background-color:#FFFF") <strong>Cabra</strong> 
+                          td.text-center(style="background-color:#FFFF") 21 días
+                          td.text-center(style="background-color:#FFFF") 32 - 40 horas
+                          td.text-center(style="background-color:#FFFF") 30 - 36 horas a partir del estro
+                        tr
+                          td.text-center(style="background-color:#F6F6F6") <strong>Oveja</strong>
+                          td.text-center(style="background-color:#F6F6F6") 16 a 17 días
+                          td.text-center(style="background-color:#F6F6F6") 24 - 36 horas
+                          td.text-center(style="background-color:#F6F6F6") 24 - 30 horas a partir del estro
+                       
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-9.png', alt='Texto que describa la imagen')
@@ -235,17 +264,16 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Proceso reproductivo en aves de corral </em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-13-1.svg', alt='')  
-
+          img.mb-3(src='@/assets/curso/temas/tema1/img-13-1.svg', alt='• Gallo: la selección de un buen padrón es indispensable para garantizar la calidad del huevo y de los polluelos. • Gallina: deben ser buenas ponedoras, ojos brillantes y activos, cresta y barbilla bien desarrollada y de un rojo intenso, la cloaca debe ser grande, dilatada y húmeda. • Huevos: los huevos a incubar deben ser de tamaño uniforme, sin irregularidades en su exterior, no deben estar quebrados ni sucios y deben ser recién puestos.')  
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right")
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 4.] <em>Proceso reproductivo en aves de corral </em>
         figure
-          img(src='@/assets/curso/temas/tema1/img-13-2.svg', alt='') 
+          img(src='@/assets/curso/temas/tema1/img-13-2.svg', alt='• Gallo: la selección de un buen padrón es indispensable para garantizar la calidad del huevo y de los polluelos. • Gallina: deben ser buenas ponedoras, ojos brillantes y activos, cresta y barbilla bien desarrollada y de un rojo intenso, la cloaca debe ser grande, dilatada y húmeda. • Huevos: los huevos a incubar deben ser de tamaño uniforme, sin irregularidades en su exterior, no deben estar quebrados ni sucios y deben ser recién puestos.') 
 
     .row
       .col-lg-5
@@ -269,18 +297,45 @@
         .cajon.color-primario.p-4(style="background-color:#E4E8E1")
           p.mb-0 La leche es un producto nutritivo tanto para las crías como para los seres humanos que se ha usado desde el inicio de la humanidad, al descubrir sus cualidades en el aporte de nutrientes. Los procesos de manejo se han ido modernizando, lo cual ha conllevado a la producción de diferentes clases de leches y derivados, como se describe a continuación.
 
-    .col-xl-10.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Tabla 2.
-        span <em>Tipos de leches</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/tabla-2.svg" data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 2 Especies forrajeras trópico alto y bajo. En la tabla se observan los campos: nombre común, nombre científico, trópico, uso. Para: Bayo, Bohío, Botón de oro, Carbonero, Colla negra, Dalia, Gomo, Guácimo, Iguá, Leucaena, Morera, Patevaca, Sauco, Tilo.")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 2.] <em>Tipos de leches</em>
+        .tabla-a.color-primario
+          table(style="min-width:auto")
+            thead
+              tr
+                th Tipo
+                th Descripción
+            tbody
+              tr
+                td.text-center(style="background-color:#F6F6F6") Leche cruda
+                td(style="background-color:#F6F6F6") Es el producto directo del animal, no ha sido sometido a ningún factor externo para alterar su composición. 
+              tr
+                td.text-center Leche entera 
+                td Es cuando la leche se ha expuesto a calor para disminuir patógenos.
+              tr
+                td.text-center(style="background-color:#F6F6F6") Leche estandarizada 
+                td(style="background-color:#F6F6F6") Es la leche que ha sido alterada para cambiar su porcentaje de grasa, generalmente es mínimo del 3%.
+              tr
+                td.text-center Leche pasteurizada
+                td Es la leche que ha sido sometida a un proceso térmico específico para la destrucción total de patógenos sin alterar su composición ni nutrientes. 
+              tr
+                td.text-center(style="background-color:#F6F6F6") Leche semidescremada  
+                td(style="background-color:#F6F6F6") Es la leche que contiene un porcentaje menor de grasa en comparación a la entera, generalmente oscila entre 0,5% y 3%.
+              tr
+                td.text-center Leche descremada 
+                td Su composición de grasa es menor a 0,5%.
+              tr
+                td.text-center(style="background-color:#F6F6F6") Leche reconstituida
+                td(style="background-color:#F6F6F6") Es la leche que se obtiene de la mezcla entre agua y leche en polvo (la cual ha sido transformada en procesos físico químicos anteriores).
+              tr
+                td.text-center Leche homogenizada
+                td Es aquella que ha sido tratada para cambiar algunas propiedades físicas y el tamaño de los glóbulos grasos. 
 
     p.mb-5 La calidad de la leche está relacionada directamente con la especie y la raza del animal, el proceso de crecimiento y la alimentación al que se expuso el animal es por eso que, desde la planificación de la cría se debe garantizar su nutrición para que el resultado sea el esperado. La leche, al ser un producto orgánico, está expuesta a diversos factores que pueden alterar su calidad. 
 
     .col-xl-10.mx-auto.mb-5.desktop
-      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Figura 5.
-        span <em>Factores que afectan la calidad de la leche</em>
       ImagenInfografica.color-acento-contenido.mb-5
         template(v-slot:imagen)
           figure
@@ -309,8 +364,6 @@
 
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right")
-        .titulo-sexto.color-primario
-          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Factores que afectan la calidad de la leche</em>
         figure
           img(src='@/assets/curso/temas/tema1/img-16.svg', alt='') 
 
@@ -324,17 +377,17 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
-          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Tipos de carne</em>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Tipos de carne</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-17-1.svg', alt='')  
+          img.mb-3(src='@/assets/curso/temas/tema1/img-17-1.svg', alt='Figura 5 Tipos de Carne En la figura se observan los diferentes tipo de carne como bovina en la cual se busca que los animales tengan una adecuada cantidad y calidad de tejido muscular. Carne porcina que es un alimento muy completo nutricionalmente. Carne de pollo, que es un alimento de alto nivel nutritivo y proteínico.')  
 
     .row.mt-5
       .col-10.col-md-10.col-lg-10.movil.mb-5(data-aos="fade-right")
-        .titulo-sexto.color-primario
-          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Tipos de carne</em>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 5.] <em>Tipos de carne</em>
         figure
-          img(src='@/assets/curso/temas/tema1/img-17-2.svg', alt='') 
+          img(src='@/assets/curso/temas/tema1/img-17-2.svg', alt='Figura 5 Tipos de Carne En la figura se observan los diferentes tipo de carne como bovina en la cual se busca que los animales tengan una adecuada cantidad y calidad de tejido muscular. Carne porcina que es un alimento muy completo nutricionalmente. Carne de pollo, que es un alimento de alto nivel nutritivo y proteínico.') 
 
     .row
       .col-lg-5
@@ -347,10 +400,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
-          p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Ejemplo de mapa de proceso de la actividad agropecuaria</em>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 6.] <em>Ejemplo de mapa de proceso de la actividad agropecuaria</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-18.svg', alt='')
+          img.mb-3(src='@/assets/curso/temas/tema1/img-18.svg', alt='Figura 6 Ejemplo de mapa de proceso de la actividad agropecuaria En la figura se observa la provisión de materias primas, subproductos y servicios, para el sector agrícola, pecuario, forestal, acuicola y pesquero, igualmente la provisión de insumos y servicios, en cuanto a instrumentos de pólicita, asesoría asistencial técnica, contexto económico, desarrollo tecnólogico, contexto ambiental, contexto sociocultural.')
           figcaption Nota. Tomada de Ministerio de Educación (2017)
 
     .row.mt-5
@@ -359,14 +412,14 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <strong>Descargar figura 7:</strong> Ejemplo de mapa de proceso de la actividad agropecuaria.
+            p <strong>Descargar figura 6:</strong> Ejemplo de mapa de proceso de la actividad agropecuaria.
     
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-10.desktop(data-aos="fade-right")
-        .titulo-sexto.color-primario
-          p.titulo.pb-0.mb-0 #[b Figura 8.] <em>Ejemplo de mapa de proceso de producción pecuaria</em>
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 7.] <em>Ejemplo de mapa de proceso de producción pecuaria</em>
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/img-19.svg', alt='')
+          img.mb-3(src='@/assets/curso/temas/tema1/img-19.svg', alt='Figura 7 Ejemplo de mapa de proceso de producción pecuaria En la figura se observa la provisión de materias primas (leche/carne), subproductos y servicios, esquema logístico, materias primas y consumidores; igualmente la provisión de insumos y servicios, en cuanto a instrumentos de pólicita, asesoría asistencial técnica, manejo de instalaciones, control sanitario, genética y reproducción, nutrición, tecnologías de proceso, componente agroecológico.')
           figcaption Nota. Tomada de Ministerio de Educación (2017)
 
     .row.mt-5
@@ -375,7 +428,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <strong>Descargar figura 8:</strong> Ejemplo de mapa de proceso de producción pecuaria.
+            p <strong>Descargar figura 7:</strong> Ejemplo de mapa de proceso de producción pecuaria.
 
     #t_1_2.titulo-segundo.color-primario(data-aos="fade-right")
       h2 1.2 Plan de mercadeo
@@ -408,13 +461,31 @@
         .cajon.color-primario.p-3(style="background-color:#E4E8E1")
           p.mb-0 Cuando las actividades están definidas y tienen responsables asignados a través de un cronograma es más probable que estas se cumplan a tiempo, ya que cada persona se encarga específicamente de su tarea teniendo al día cada una de ellas y facilitando la secuencia de las demás, impactando de manera positiva la productividad, no habrá actividades duplicadas, los tiempos y cuellos de botella reducirán y aumentara la eficiencia evidenciando todos estos factores en los resultados esperados.
 
-    .col-xl-10.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Tabla 3.
-        span <em>Diseño cronograma de actividades</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-21.svg" data-aos="fade-left")
-      figcaption Nota. Tomada de “Propuesta plan de mercadeo para una empresa AGROAVÍCOLA” 
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 3 Diseño cronograma de actividades En la tabla se observan los campos: Objetivo de mercado Estrategia Acción a realizar Responsable Tiempo de ejecución Fecha de inicio Fecha de finalización")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Diseño cronograma de actividades</em>
+        .tabla-a.color-primario
+          table.mb-3(style="min-width:auto")
+            thead
+              tr
+                th Objetivo de mercado
+                th Estrategia
+                th Acción a realizar
+                th Responsable 
+                th Tiempo de ejecución 
+                th Fecha de inicio 
+                th Fecha de finalización 
+            tbody
+              tr
+                td(style="background-color:#F6F6F6") Incrementar las ventas del canal de distribución en la regional occidente.
+                td(style="background-color:#F6F6F6") Desarrollo de mercados.
+                td(style="background-color:#F6F6F6") Promocionar la marca a través de participación en eventos agrícolas a nivel regional y nacional.
+                td(style="background-color:#F6F6F6") Mercadeo (se pueden definir por área, cargo o nombre propio)
+                td(style="background-color:#F6F6F6") 3 meses
+                td(style="background-color:#F6F6F6") 15 de marzo
+                td(style="background-color:#F6F6F6") 15 de junio
+              
     Separador 
 
     #t_1_4.titulo-segundo.color-primario(data-aos="fade-right")
@@ -451,12 +522,94 @@
     
     p.mb-5 La mejor manera de diseñar el presupuesto es proyectando los recursos utilizados mes a mes, de esta manera se puede hacer un seguimiento al porcentaje utilizado y restante de cada actividad, se puede tomar decisiones respecto a los recursos en cuanto a trasladarlos de una actividad a otra o suspender alguna de ellas.
 
-    .col-xl-10.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Tabla 4.
-        span <em>Presupuesto</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-26.svg" data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-12(data-aos="fade-right", alt="Tabla 4 Presupuesto En la tabla se observan los campos: Categorías, Presupuesto total, Gastado hasta hoy, Presupuesto restante, % restante, Mes 1, Mes 2, Mes 3, Mes 4, para: Relaciones públicas Publicidad online Publicidad en radio Evento publicitarios Asistencias a eventos Total Para finalizar con el dato de la reserva 15 % igual a $57.750.")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 4.] <em>Presupuesto</em>
+      .col-12.col-lg-12 
+        .tabla-b.color-primario
+          table.mb-3(style="min-width:auto")
+            thead
+              tr.cabecera-a.text-center
+                th(colspan="2") Especie
+                th Presupuesto total 
+                th Gastado hasta hoy
+                th Presupuesto restante
+                th % restante
+                th Mes 1
+                th Mes 2
+                th Mes 3 
+                th Mes 4
+            tbody
+              tr
+                td(colspan="2")(style="background-color:#F6F6F6") <strong>Relaciones públicas</strong>
+                td.text-center(style="background-color:#F6F6F6") $100.000
+                td.text-center(style="background-color:#F6F6F6") $20.000
+                td.text-center(style="background-color:#F6F6F6") $80.000
+                td.text-center(style="background-color:#F6F6F6") 80 %
+                td.text-center(style="background-color:#F6F6F6") $500
+                td.text-center(style="background-color:#F6F6F6") $10.500
+                td.text-center(style="background-color:#F6F6F6") $0
+                td.text-center(style="background-color:#F6F6F6") $9.000
+              
+              tr
+                td(colspan="2") <strong>Publicidad online</strong>
+                td.text-center $80.000
+                td.text-center $0
+                td.text-center $80.000
+                td.text-center 100%
+                td.text-center $0
+                td.text-center $0
+                td.text-center $0
+                td.text-center $0
 
+              tr
+                td(colspan="2")(style="background-color:#F6F6F6") <strong>Publicidad en radio</strong>
+                td.text-center(style="background-color:#F6F6F6") $50.000
+                td.text-center(style="background-color:#F6F6F6") $5.000
+                td.text-center(style="background-color:#F6F6F6") $45.000
+                td.text-center(style="background-color:#F6F6F6") 90 %
+                td.text-center(style="background-color:#F6F6F6") $500
+                td.text-center(style="background-color:#F6F6F6") $4.000
+                td.text-center(style="background-color:#F6F6F6") $0
+                td.text-center(style="background-color:#F6F6F6") $50
+
+              tr
+                td(colspan="2") <strong>Eventos publicitarios</strong>
+                td.text-center $65.000
+                td.text-center $65.000
+                td.text-center $0
+                td.text-center 0 %
+                td.text-center $900
+                td.text-center $5.900
+                td.text-center $50.000
+                td.text-center $8.200
+
+              tr
+                td(colspan="2")(style="background-color:#F6F6F6") <strong>Asistencia a eventos</strong>
+                td.text-center(style="background-color:#F6F6F6") $90.000
+                td.text-center(style="background-color:#F6F6F6") $0
+                td.text-center(style="background-color:#F6F6F6") $90.000
+                td.text-center(style="background-color:#F6F6F6") 100 %
+                td.text-center(style="background-color:#F6F6F6") $0
+                td.text-center(style="background-color:#F6F6F6") $0
+                td.text-center(style="background-color:#F6F6F6") $0
+                td.text-center(style="background-color:#F6F6F6") $0
+
+              tr
+                td(colspan="2") <strong>Total</strong>
+                td.text-center $385.000
+                td.text-center $90.000
+                td.text-center $295.000
+                td.text-center 4 %
+                td.text-center $1.900
+                td.text-center $20.400
+                td.text-center $50.000
+                td.text-center $17.700
+
+              tr
+                td(colspan="10")(style="background-color:#F6F6F6") <strong>Reserva 15 %</strong> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp $57.750
+                
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-md-10.col-12
         .cajon.color-primario.p-3(style="background-color:#E4E8E1")
@@ -484,10 +637,10 @@
             ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | <strong>Control preventivo:</strong> Se hace antes del desarrollo de las actividades, anticipándose de alguna manera a futuros problemas.
+                | <strong>Control preventivo:</strong> se hace antes del desarrollo de las actividades, anticipándose de alguna manera a futuros problemas.
               li 
                 i.lista-ul__vineta
-                | <strong>Control concurrente:</strong> Se realiza en el momento que se está desarrollando la actividad, permite corregir los errores de forma inmediata antes de que tengan un impacto negativo.
+                | <strong>Control concurrente:</strong> se realiza en el momento que se está desarrollando la actividad, permite corregir los errores de forma inmediata antes de que tengan un impacto negativo.
 
           .col-md-6
             figure
@@ -497,7 +650,7 @@
             ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | <strong>Control de retroalimentación:</strong> Se efectúa luego de finalizada la actividad, en este caso ya no se puede hacer ningún cambio ni corregir los problemas presentados, pero abre la puerta para implementar un plan de mejora para el desarrollo de actividades futuras.
+                | <strong>Control de retroalimentación:</strong> se efectúa luego de finalizada la actividad, en este caso ya no se puede hacer ningún cambio ni corregir los problemas presentados, pero abre la puerta para implementar un plan de mejora para el desarrollo de actividades futuras.
 
           .col-md-6
             figure
@@ -507,7 +660,7 @@
             ul.lista-ul.mb-3
               li 
                 i.lista-ul__vineta
-                | <strong>Plan de contingencia:</strong> Dentro de la evaluación y seguimiento como parte del control se sugiere diseñar también un plan de contingencia, también conocido como plan de emergencia. El diseño de este plan permitirá reaccionar de forma inmediata ante imprevistos que se presenten en la ejecución del plan de mercado y que pueden afectar de manera negativa y en gran medida a la empresa.
+                | <strong>Plan de contingencia:</strong> dentro de la evaluación y seguimiento como parte del control se sugiere diseñar también un plan de contingencia, también conocido como plan de emergencia. El diseño de este plan permitirá reaccionar de forma inmediata ante imprevistos que se presenten en la ejecución del plan de mercado y que pueden afectar de manera negativa y en gran medida a la empresa.
 
           .col-md-6
             figure
@@ -535,7 +688,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-32.png', alt='Texto que describa la imagen')
 
-      .row(titulo="Indicadores de “marketing” digital")
+      .row(titulo="Indicadores de <em>marketing</em> digital")
         .col-md-6.mb-4.mb-md-0
           p La tendencia actual es realizar inversión en estrategias de marketing digital para tener presencia en la web y atraer nuevos clientes por este canal de comunicación. Entre los indicadores más utilizados de esta categoría están: porcentaje de clientes influenciados por marketing, alcance de las redes sociales.
 
@@ -553,12 +706,30 @@
 
     p.mb-5 A continuación, se muestra un ejemplo de dos indicadores de un plan de mercado de granjas avícolas.
 
-    .col-xl-10.mx-auto.mb-5
-      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Tabla 5.
-        span <em>Indicadores de evaluación plan de mercado</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/img-35.svg" data-aos="fade-left")
-      figcaption Nota. Tomada de Propuesta plan de mercadeo para una empresa AGROAVÍCOLA 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 5 Indicadores de evaluación plan de mercado En la tabla se observan los campos: Indicador, Descripción, Ecuación, Grado de cumplimiento del objetivo; para: Asistencia a eventos agrícolas, Cobertura de mercado.")
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Tabla 5.] <em>Indicadores de evaluación plan de mercado</em>
+        .tabla-a.color-primario
+          table.mb-3(style="min-width:auto")
+            caption Nota. Tomada de Propuesta plan de mercadeo para una empresa AGROAVÍCOLA  
+            thead
+              tr
+                th Indicador
+                th Descripción
+                th Ecuación 
+                th Grado de cumplimiento del objetivo
+            tbody
+              tr
+                td(style="background-color:#F6F6F6") <strong>Asistencia a eventos agrícolas</strong>
+                td(style="background-color:#F6F6F6") Conocer el porcentaje de la población del sector que pertenece a la base de datos de clientes.
+                td(style="background-color:#F6F6F6") # Clientes potenciales que asistieron al evento / total personas asistentes al evento.
+                td(style="background-color:#F6F6F6") 30% de cumplimiento esperado.
+              tr
+                td(style="background-color:#F6F6F6") <strong>Cobertura de mercado</strong>
+                td(style="background-color:#F6F6F6") Conocer cuál es el incremento porcentual de clientes nuevos en las zonas del Putumayo y del Chocó, partiendo del censo de distribuidoras agropecuarias de cada zona, evidenciando la gestión del equipo comercial.
+                td(style="background-color:#F6F6F6") # Clientes vinculados al mes por cada zona / # de clientes censados por cada zona.
+                td(style="background-color:#F6F6F6") 50% de cobertura al final del año.
 
     p.mb-5 Como ejemplo de indicadores, se invita a ver el siguiente vídeo:
 

@@ -120,7 +120,7 @@ export default {
         'Hoyos, E., y Henao, I. (2020). Propuesta de plan de mercadeo para una empresa agroavícola para el periodo 2020',
       tipo: 'Trabajo de Grado',
       link:
-        'https://www.scribd.com/document/591833070/Propuesta-de-Plan-de-Mercadeo',
+        'https://www.engormix.com/agricultura/gerenciar-empresa-agropecuaria/como-armar-plan-negocios_a27599/',
     },
   ],
   glosario: [
