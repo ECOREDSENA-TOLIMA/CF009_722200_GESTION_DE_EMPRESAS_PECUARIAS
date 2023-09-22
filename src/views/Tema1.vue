@@ -316,16 +316,16 @@
                 td Es cuando la leche se ha expuesto a calor para disminuir patógenos.
               tr
                 td.text-center(style="background-color:#F6F6F6") Leche estandarizada 
-                td(style="background-color:#F6F6F6") Es la leche que ha sido alterada para cambiar su porcentaje de grasa, generalmente es mínimo del 3%.
+                td(style="background-color:#F6F6F6") Es la leche que ha sido alterada para cambiar su porcentaje de grasa, generalmente es mínimo del 3 %.
               tr
                 td.text-center Leche pasteurizada
                 td Es la leche que ha sido sometida a un proceso térmico específico para la destrucción total de patógenos sin alterar su composición ni nutrientes. 
               tr
                 td.text-center(style="background-color:#F6F6F6") Leche semidescremada  
-                td(style="background-color:#F6F6F6") Es la leche que contiene un porcentaje menor de grasa en comparación a la entera, generalmente oscila entre 0,5% y 3%.
+                td(style="background-color:#F6F6F6") Es la leche que contiene un porcentaje menor de grasa en comparación a la entera, generalmente oscila entre 0,5 % y 3 %.
               tr
                 td.text-center Leche descremada 
-                td Su composición de grasa es menor a 0,5%.
+                td Su composición de grasa es menor a 0,5 %.
               tr
                 td.text-center(style="background-color:#F6F6F6") Leche reconstituida
                 td(style="background-color:#F6F6F6") Es la leche que se obtiene de la mezcla entre agua y leche en polvo (la cual ha sido transformada en procesos físico químicos anteriores).
@@ -557,7 +557,7 @@
                 td.text-center $80.000
                 td.text-center $0
                 td.text-center $80.000
-                td.text-center 100%
+                td.text-center 100 %
                 td.text-center $0
                 td.text-center $0
                 td.text-center $0
@@ -724,12 +724,12 @@
                 td(style="background-color:#F6F6F6") <strong>Asistencia a eventos agrícolas</strong>
                 td(style="background-color:#F6F6F6") Conocer el porcentaje de la población del sector que pertenece a la base de datos de clientes.
                 td(style="background-color:#F6F6F6") # Clientes potenciales que asistieron al evento / total personas asistentes al evento.
-                td(style="background-color:#F6F6F6") 30% de cumplimiento esperado.
+                td(style="background-color:#F6F6F6") 30 % de cumplimiento esperado.
               tr
                 td(style="background-color:#F6F6F6") <strong>Cobertura de mercado</strong>
                 td(style="background-color:#F6F6F6") Conocer cuál es el incremento porcentual de clientes nuevos en las zonas del Putumayo y del Chocó, partiendo del censo de distribuidoras agropecuarias de cada zona, evidenciando la gestión del equipo comercial.
                 td(style="background-color:#F6F6F6") # Clientes vinculados al mes por cada zona / # de clientes censados por cada zona.
-                td(style="background-color:#F6F6F6") 50% de cobertura al final del año.
+                td(style="background-color:#F6F6F6") 50 % de cobertura al final del año.
 
     p.mb-5 Como ejemplo de indicadores, se invita a ver el siguiente vídeo:
 
