@@ -104,7 +104,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/CFA_09_722200.zip',
       },
       {
         icono: 'far fa-registered',
