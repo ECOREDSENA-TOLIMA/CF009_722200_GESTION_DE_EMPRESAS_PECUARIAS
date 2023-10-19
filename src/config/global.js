@@ -99,12 +99,12 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/CFA_09_722200.zip',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/CFA_09_722200.zip',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -115,10 +115,10 @@ export default {
   },
   complementario: [
     {
-      tema: '1.7. Evaluación e indicadores',
+      tema: 'Plan de mercadeo',
       referencia:
-        'Hoyos, E., y Henao, I. (2020). Propuesta de plan de mercadeo para una empresa agroavícola para el periodo 2020',
-      tipo: 'Trabajo de Grado',
+        'Vázquez H. Cenzato J. (2008) ¿Cómo armar un plan de negocios en empresas agropecuarias? Engormix.',
+      tipo: 'Artículo',
       link:
         'https://www.engormix.com/agricultura/gerenciar-empresa-agropecuaria/como-armar-plan-negocios_a27599/',
     },
@@ -127,7 +127,7 @@ export default {
     {
       termino: 'Estrategia',
       significado:
-        'Proceso o actividad en la cual se centrar todos los recursos y por medio del cual la empresa logra los resultados esperados.',
+        'Proceso o actividad en la cual se centra todos los recursos y por medio del cual la empresa logra los resultados esperados.',
     },
     {
       termino: 'Indicador',
@@ -176,15 +176,15 @@ export default {
     },
     {
       referencia:
-        'Hoyos, R. (2019). Plan de marketing. Diseño, implementación y control con enfoque en gerencia de mercadeo. Ecoe Ediciones.',
+        'Hoyos, R. (2019). Plan de <em>marketing</em>. Diseño, implementación y control con enfoque en gerencia de mercadeo. Ecoe Ediciones.',
       link:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed',
+        'https://login.bdigital.sena.edu.co/login?qurl=https://www.ebooks7-24.com%2f%3fil%3d8802%26pg%3d1',
     },
     {
       referencia:
-        'Kotler, P., y Armstrong, G. (2019). Principios de marketing. Pearson.',
+        'Kotler, P., y Armstrong, G. (2019). Principios de <em>marketing</em>. Pearson.',
       link:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed',
+        'https://login.bdigital.sena.edu.co/login?qurl=https://www.ebooks7-24.com%2fstage.aspx%3fil%3d%26pg%3d%26ed',
     },
     {
       referencia:
@@ -240,12 +240,12 @@ export default {
         {
           nombre: 'Humberto Arias Díaz',
           cargo: 'Diseñador Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Maria Inés Machado López',
           cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -255,32 +255,32 @@ export default {
         {
           nombre: 'Luis Fernando Botero Mendoza',
           cargo: 'Diseñador web',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Storyborad e Ilustración',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Nelsón Iván Vera Briceño',
           cargo: 'Producción Audiovisual',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oleg Livtin',
           cargo: 'Animador',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Actividad Didáctica',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -290,12 +290,12 @@ export default {
         {
           nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Regional Distrito Capital - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

@@ -99,11 +99,13 @@
           p Los animales monogástricos consumen alimentos de muy alto valor nutritivo, pues son los que más van a aprovechar. Normalmente la dieta de estos es a base de cereales y harina de soya. En las aves el sistema digestivo es diferente ya que poseen un buche en el que almacenan y maceran el alimento, y una molleja que lo tritura y lo fragmenta.
           p En los rumiantes la digestión es diferente, ya que son capaces de utilizar alimentos bastos o fibrosos que no pueden digerir otros animales, poseen un aparato digestivo especializado en el que se destaca el rumen o panza.
             
-          .bloque-texto-c.color-secundario.p-4(style="background-color:#E4E8E1")
-            i.fas.fa-quote-right
-            p.mb-2 Los alimentos fibrosos contienen gran proporción celulosa que es atacada y digerida en el rumen debido a la acción de los microorganismos que existen dentro de la panza. Como resultado de esta digestión se producen unidades más sencillas que pueden ser asimiladas y utilizadas por el animal.
-            span - Reece, 2010
-        
+          .bloque-texto-b.color-adicional-3.p-4(style="background-color:#E4E8E1")
+            .bloque-texto-b__texto
+              i.fas.fa-quote-left
+              p.mb-0 Los alimentos fibrosos contienen gran proporción celulosa que es atacada y digerida en el rumen debido a la acción de los microorganismos que existen dentro de la panza. Como resultado de esta digestión se producen unidades más sencillas que pueden ser asimiladas y utilizadas por el animal.
+              span - Reece, 2010
+              i.fas.fa-quote-right
+
         .col-md-5
           figure
             img(src='@/assets/curso/temas/tema1/img-5.png', alt='')
@@ -258,7 +260,7 @@
               p.text-small(style="color:#000") Los cambios de comportamiento para la reproducción varían de acuerdo a la especie. Más información en el siguiente documento: 
 
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/Copia_de_Los_sistemas_pecuarios_recursos_procesos_y_productos_hernandez_Malueños.pdf')" target="_blank")
+              a.boton.color-acento-contenido.texto-negro(:href="obtenerLink('/downloads/los_sistemas_pecuarios_recursos_procesos_y_productos_hernandez_Malueños.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-download
 
@@ -465,7 +467,7 @@
       .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 3 Diseño cronograma de actividades En la tabla se observan los campos: Objetivo de mercado Estrategia Acción a realizar Responsable Tiempo de ejecución Fecha de inicio Fecha de finalización")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 3.] <em>Diseño cronograma de actividades</em>
-        .tabla-a.color-primario
+        .tabla-b.color-primario
           table.mb-3(style="min-width:auto")
             thead
               tr
@@ -627,7 +629,7 @@
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p El plan de mercado al tener definido un cronograma de actividades según lo establecen los pasos del <em>marketing</em> operativo, permite que el mismo se convierte en la hoja de ruta para hacer la evaluación de la ejecución el plan de <em>marketing,</em> algunos autores reconocen este proceso como auditoría de <em>“marketing”.</em> Esta auditoría permite hacer una evaluación amplia y sistemática de los objetivos, las estrategias y actividades implementadas, además de tenerlas en cuenta para elaborar el plan del año siguiente.
+            p El plan de mercado al tener definido un cronograma de actividades según lo establecen los pasos del <em>marketing</em> operativo, permite que el mismo se convierte en la hoja de ruta para hacer la evaluación de la ejecución el plan de <em>marketing,</em> algunos autores reconocen este proceso como auditoría de <em>marketing.</em> Esta auditoría permite hacer una evaluación amplia y sistemática de los objetivos, las estrategias y actividades implementadas, además de tenerlas en cuenta para elaborar el plan del año siguiente.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-27.png', alt='')
@@ -674,7 +676,7 @@
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul2")
       .row(titulo="Indicadores por campaña")
         .col-md-6.mb-4.mb-md-0
-          p Estos miden el comportamiento del público objetivo respecto a la campaña diseñada por la empresa ejemplo: costo por lead o prospecto, el lead es un cliente potencial del cual se ha obtenido el contacto.
+          p Estos miden el comportamiento del público objetivo respecto a la campaña diseñada por la empresa ejemplo: costo por <em>lead</em> o prospecto, el <em>lead</em> es un cliente potencial del cual se ha obtenido el contacto.
       
         .col-md-4
           figure
@@ -690,7 +692,7 @@
 
       .row(titulo="Indicadores de <em>marketing</em> digital")
         .col-md-6.mb-4.mb-md-0
-          p La tendencia actual es realizar inversión en estrategias de marketing digital para tener presencia en la web y atraer nuevos clientes por este canal de comunicación. Entre los indicadores más utilizados de esta categoría están: porcentaje de clientes influenciados por marketing, alcance de las redes sociales.
+          p La tendencia actual es realizar inversión en estrategias de <em>marketing</em> digital para tener presencia en la web y atraer nuevos clientes por este canal de comunicación. Entre los indicadores más utilizados de esta categoría están: porcentaje de clientes influenciados por <em>marketing</em>, alcance de las redes sociales.
 
         .col-md-4
           figure
@@ -710,7 +712,7 @@
       .col-10.col-md-10.col-lg-10(data-aos="fade-right", alt="Tabla 5 Indicadores de evaluación plan de mercado En la tabla se observan los campos: Indicador, Descripción, Ecuación, Grado de cumplimiento del objetivo; para: Asistencia a eventos agrícolas, Cobertura de mercado.")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Tabla 5.] <em>Indicadores de evaluación plan de mercado</em>
-        .tabla-a.color-primario
+        .tabla-b.color-primario
           table.mb-3(style="min-width:auto")
             caption Nota. Tomada de Propuesta plan de mercadeo para una empresa AGROAVÍCOLA  
             thead
